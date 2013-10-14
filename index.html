@@ -175,6 +175,15 @@
     li.hover tumblr img {
         background: url(http://i.imgur.com/GF1kKnB.jpg);
     }
+    
+    li.hover div.about img {
+        width: 128px;
+    	height: 128px;
+    	border-radius: 64px;
+    	-webkit-border-radius: 64px;
+    	-moz-border-radius: 64px;
+    	background: url(http://i.imgur.com/SDrv6l8.png);
+    }
     /* http://bavotasan.com/2011/circular-images-with-css3/ */
     
     footer {
@@ -203,15 +212,20 @@
 			<div id="headmiddle">Justin Cox</div>
 	 	</div>
 	 	<div id="gameshead">
-			<div class="selected optionsbox"><a href="http://justincox.com/">Home</a></div>
-			<div class="middle optionsbox"><a href="http://justincox.tumblr.com/about">About</a></div>
+			<div class="selected optionsbox">About</div>
 			<div class="optionsbox"><a href="http://justincox.tumblr.com/ask">Contact</a></div>
 	 	</div>
     </div>
 	
 	<div id="maingames">
 		<ul id="gamescontactlist">
-			<li class="title">Social</li>
+		    <li class="title">About</li>
+		    <li class="hover"><div class="about">
+		        <img src="http://i.imgur.com/SDrv6l8.png" />
+		        <p class="name">Part-time super hero. Maybe.</p>
+		        <p class="game">Justin Cox is a youth director, social media account hoarder, fan of the Florida State Seminoles, and co-founder of the <a href="http://chowdownorlando.com">Chow Down Orlando</a> food blog. Justin can be found all over the internet via the links below or in the real world at any one of Orlando's many great restaurants. When Justin isn't eating somewhere exotic with his wife, watching the Seminoles play football, or helping shape young minds at the church, he likes to read and watch free movies on TV.<br /><br /></p>
+		    </div></li>
+			<li class="title">Social Media</li>
 			<li class="hover twitter"><a href="http://twitter.com/justincox">
 			    <img src="http://i.imgur.com/KsTR9pT.png" /> 
 				<p class="name">@JustinCox</p>
