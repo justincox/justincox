@@ -5,36 +5,36 @@
     <link rel="shortcut icon" href="http://25.media.tumblr.com/avatar_ec0f89539f85_128.png">
     <style>
 
-    body {
+body {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     width:100%;
     margin:0;
-    }
-    
-    #headcontainer {
-	position:fixed;
-	width:100%;
-	top:0;
-	z-index:2;
-	}
-	
-	.gamesheadcontainer {
-	background: #F8F8F8;
+}
+
+#headcontainer {
+    position:fixed;
+    width:100%;
+    top:0;
+    z-index:2;
+}
+
+.gamesheadcontainer {
+    background: #F8F8F8;
     border-bottom: 1px solid #C9C9C9;
     text-align:center;
     opacity:0.98;
-	}
-	
-	#head {
+}
+
+#head {
     background: #F8F8F8;
     border-bottom: 1px solid #C9C9C9;
     font-size: 1.5em;
     padding: 0.6em 1em 1em 1em;
     height: 1em;
     opacity:0.95;
-    }
-    
-    #gameshead {
+}
+
+#gameshead {
     border:2px solid #1D73D8;
     border-radius: 6px;
     margin: 0.6em 1em 0.6em 1em;
@@ -44,170 +44,147 @@
     *display:inline;/* IE*/
     *zoom:1;/* IE*/
     opacity:0.95;
-    }
-        
-    #headleft {
-    float:left;
-    } 
-       
-    #headright {
-    float:right;
-    }
+}
     
-    #headmiddle {
+#headleft { float:left; } 
+   
+#headright { float:right; }
+
+#headmiddle {
     margin:0 auto;
     width:8em;
     text-align:center;
-    }
-    
-    .blue {
-    color: #1D73D8;
-    }
-    
-    .orange {
-    color: #EDD630;
-    }
-    
-    #headlefticon {
+}
+
+.blue { color: #1D73D8; }
+
+.orange { color: #EDD630; }
+
+#headlefticon {
     font-size:150%;
-	float:left;
-	position:relative;
-	top:-0.25em;
-	left:-0.05em;
-    }
-        
-    #headrighticon {
-    font-size:150%;
-	float:right;
-	position:relative;
-	top:-0.35em;
-	left:0.05em;
-    }
+    float:left;
+    position:relative;
+    top:-0.25em;
+    left:-0.05em;
+}
     
-    #main {
+#headrighticon {
+    font-size:150%;
+    float:right;
+    position:relative;
+    top:-0.35em;
+    left:0.05em;
+}
+
+#main {
     margin:4em 0 0 0;
     height:100%;
     width:100%;
-    }
-    
-    #maingames {
+}
+
+#maingames {
     margin:8em 0 0 0;
     height:100%;
     width:100%;
-    }
-    
-    .optionsbox {
+}
+
+.optionsbox {
     padding:0.3em;
     float:left;
     width:5em;
     color: #1D73D8;
-    }
-    
-    .middle {
+}
+
+.middle {
     border-left: 2px solid #1D73D8;
     border-right: 2px solid #1D73D8;
-    }
-    
-    .selected {
+}
+
+.selected {
     color:#FFF;
     background: #1D73D8;
-    }
-    
-    .optionsbox:hover {
+}
+
+.optionsbox:hover {
     color:#FFF;
     background: #1D73D8;
-    }
-    
-	
-    #gamescontactlist {
+}
+
+
+#gamescontactlist {
     list-style-type: none;
     margin:0;
     padding:0;
-    }
-    
-    #gamescontactlist li {
+}
+
+#gamescontactlist li {
     margin-left: 0;
     padding: 0.8em 1em 0.8em;
     border-bottom: 1px solid #C9C9C9;
-    }
-    
-    #gamescontactlist img {
+}
+
+#gamescontactlist img {
     float:left;
     margin-right:1em;
-    }
-    
-    #gamescontactlist p {
-    margin:0;
-    }
-    
-    #gamescontactlist .name {
-    font-size:1.5em;
-    }
+}
 
-    #gamescontactlist .game {
-    color:#999999;
-    }
-    
-    #gamescontactlist .hover:hover {
-    background: #F8F8F8;
-    }
-    
-    #gamescontactlist .title {
+#gamescontactlist p { margin:0; }
+
+#gamescontactlist .name { font-size:1.5em; }
+
+#gamescontactlist .game {
+color:#999999;
+}
+
+#gamescontactlist .hover:hover { background: #F8F8F8; }
+
+#gamescontactlist .title {
     font-size:120%;
-	border: none;
-	padding-top:1em;
-	}
+    border: none;
+    padding-top:1em;
+}
 
-    li.hover img {
-        width: 50px;
-    	height: 50px;
-    	border-radius: 25px;
-    	-webkit-border-radius: 25px;
-    	-moz-border-radius: 25px;
-    }
-    li.hover twitter img {
-        background: url(http://i.imgur.com/KsTR9pT.png);
-    }
-    li.hover facebook img {
-        background: url(http://i.imgur.com/TcEYYuE.png);
-    }
-    li.hover instagram img {
-        background: url(http://i.imgur.com/5j31vcD.png);
-    }
-    li.hover tumblr img {
-        background: url(http://i.imgur.com/GF1kKnB.jpg);
-    }
-    
-    li.hover div.about img {
-        width: 128px;
-    	height: 128px;
-    	border-radius: 64px;
-    	-webkit-border-radius: 64px;
-    	-moz-border-radius: 64px;
-    	background: url(http://i.imgur.com/SDrv6l8.png);
-    }
-    /* http://bavotasan.com/2011/circular-images-with-css3/ */
-    
-    footer {
-        margin: 2em 0 0 0;
-        width: 100%;
-        text-align: center;
-    }
-    
-    a { text-decoration: none; }
-    a:link { color: inherit; }
-    a:visited { color: inherit; }
-    a:hover { color: #1D73D8; }
-    div.optionsbox a:hover { color: white; }
-    
-    p.about { max-width: 768px; }
+li.hover img {
+    width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+}
+li.hover twitter img { background: url(http://i.imgur.com/KsTR9pT.png); }
+li.hover facebook img { background: url(http://i.imgur.com/TcEYYuE.png); }
+li.hover instagram img { background: url(http://i.imgur.com/TiEzkA4.png); }
+li.hover tumblr img { background: url(http://i.imgur.com/GF1kKnB.jpg); }
+
+li.hover div.about img {
+    width: 128px;
+	height: 128px;
+	border-radius: 64px;
+	-webkit-border-radius: 64px;
+	-moz-border-radius: 64px;
+	background: url(http://i.imgur.com/SDrv6l8.png);
+}
+/* http://bavotasan.com/2011/circular-images-with-css3/ */
+
+footer {
+    margin: 2em 0 0 0;
+    width: 100%;
+    text-align: center;
+}
+
+a { text-decoration: none; }
+a:link { color: inherit; }
+a:visited { color: inherit; }
+a:hover { color: #1D73D8; }
+div.optionsbox a:hover { color: white; }
+p.about { max-width: 768px; }
 
     </style>
 </head>
 
 <body>
 
-<div id="headcontainer" class="gamesheadcontainer"> 
+    <div id="headcontainer" class="gamesheadcontainer"> 
 		<div id="head">
 			<!--<div id="headlefticon" class="blue">&#9679;</div>
 			<div id="headleft" class="blue">Requests</div>-->
@@ -241,7 +218,7 @@
 				<p class="game"><b>TheJustinCox</b> Since 2004</p>
 			</a></li>
 			<li class="hover instagram"><a href="http://instagram.com/justincox">
-			    <img src="http://i.imgur.com/5j31vcD.png" /> 
+			    <img src="http://i.imgur.com/TiEzkA4.png" /> 
 				<p class="name">Instagram</p>
 				<p class="game"><b>JustinCox</b> Since 2011</p>
 			</a></li>
@@ -262,6 +239,7 @@
 				<p class="game"><b>@ChowDownOrlando</b> Since 2011</p>
 			</a></li>	
 		</ul>
+
 <footer>Website Template via <a href="http://www.ios7templates.com">iOS 7 Templates</a></footer>
 
 <script type="text/javascript">
