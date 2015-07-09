@@ -1187,6 +1187,7 @@
 		@media screen and (max-width: 736px) {
 
 			#footer {
+				text-align: center;
 				bottom: 2em;
 				left: 2em;
 			}
@@ -1196,6 +1197,7 @@
 		@media screen and (max-width: 360px) {
 
 			#footer {
+				text-align: center;
 				bottom: 1.25em;
 				left: 1.25em;
 			}
@@ -1205,6 +1207,7 @@
 		@media screen and (max-height: 640px) {
 
 			#footer {
+				text-align: center;
 				bottom: auto;
 				left: auto;
 				margin: 1em 0 0 0;
