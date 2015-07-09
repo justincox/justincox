@@ -1043,6 +1043,10 @@
 		#header p {
 			font-size: 1em;
 		}
+		
+		#header img.face {
+    	        float: none;
+	    }
 
 	}
 
