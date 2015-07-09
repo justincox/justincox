@@ -1036,6 +1036,10 @@
 
 	@media screen and (max-width: 736px) {
 
+		#header {
+			text-align: center;
+		}
+		
 		#header h1 {
 			font-size: 2em;
 		}
@@ -1054,6 +1058,7 @@
 
 		#header {
 			margin: 0 0 1em 0;
+			text-align: center;
 		}
 		
 		#header img.face {
