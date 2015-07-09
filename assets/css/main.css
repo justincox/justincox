@@ -1028,6 +1028,7 @@
 	
 	#header ul.icons li {
         font-size: 1.75em;
+        line-height: 2em;
     }
 
 	#header a {
@@ -1050,6 +1051,7 @@
 		
 		#header img.face {
     	        float: none;
+    	        margin: 0;
 	    }
 
 	}
@@ -1063,6 +1065,7 @@
 		
 		#header img.face {
     	        float: none;
+    	        margin: 0;
 	    }
 
 	}
