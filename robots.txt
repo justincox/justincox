@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: /assets/
+Disallow: /images/
+
+Sitemap: http://justincox.com/sitemap.xml
